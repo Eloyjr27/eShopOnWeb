@@ -1,6 +1,10 @@
 #NAME THE PIPELINE SAME AS FILE (WITHOUT ".yml")
 # trigger:
 # - main
+on: 
+  push: 
+    branches: 
+      - main
 
 resources:
   repositories:
